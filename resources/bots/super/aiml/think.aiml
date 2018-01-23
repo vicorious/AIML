@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: think.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: enero 09, 2018 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2018 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>PUEDES DECIRME PORQUE EL PARTIDO * ES MEJOR QUE EL MIRA</pattern>
+<template>Realmente piensas eso? <think><set name="partidoenemigo"> <star/></set></think></template>
+</category>
+<category><pattern>PUEDO ASEGURARTELO COMPLETAMENTE</pattern>
+<template>Yo puedo asegurarte que todo lo que ves en el partido <get name="partidoenemigo"/> puedes encontrarlo en el partido MIRA... y mucho mas https://partidomira.com/</template>
+</category>
+</aiml>

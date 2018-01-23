@@ -1,0 +1,4 @@
+0,HOLA,*,*,<random>#Newline				<li>Hola amigo#Comma buenos dias</li>#Newline				<li>Hola amigo#Comma en que puedo ayudarte</li>#Newline			</random>,espanol.aiml
+0,PORQUE MIS LLAMADAS ME SALEN A * PESOS,*,*,A CUANTOS <star/> LE ESTAN SALIENDO SUS LLAMADAS?.,espanol.aiml
+0,ME ENCANTA * NO,*,*,UY#Comma AMI TAMBIEN ME ENCANTA <star/>.,espanol.aiml
+0,_ HOLA *,*,*,ESTE ES EL HOLA CON UN TEXTO ANTES Y UN TEXTO DESPUES <star/>.,espanol.aiml

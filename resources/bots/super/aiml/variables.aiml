@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: variables.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: enero 09, 2018 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2018 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>MI NOMBRE ES *</pattern>
+<template>Que nombre tan bonito <set name="nombre"><star/></set></template>
+</category>
+<category><pattern>COMO ES MI NOMBRE</pattern>
+<template>Tu nombre es <get name="nombre"/></template>
+</category>
+<category><pattern>BUENAS NOCHES</pattern>
+<template>Buena noche <get name="nombre"/>, Gracias por la conversacion</template>
+</category>
+</aiml>

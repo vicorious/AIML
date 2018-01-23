@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: topicos.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: enero 09, 2018 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2018 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>VAMOS A DISCUTIR SOBRE PARTIDOS POLITICOS</pattern>
+<template>Si, me parece <set name="topic">politica</set></template>
+</category>
+<topic name="POLITICA">
+<category><pattern>*</pattern>
+<template>Sigo pensando, y muy claramente, que el partido MIRA es el mejor</template>
+</category></topic>
+
+<topic name="POLITICA">
+<category><pattern>AMI ME GUSTA EL PARTIDO LIBERAL</pattern>
+<template>Respeto mucho tu opinion, somos humanos no? pero te invito a mirar sobre el partido MIRA https://partidomira.com/</template>
+</category></topic>
+
+</aiml>

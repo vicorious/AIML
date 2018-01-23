@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: preguntas.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: enero 09, 2018 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2018 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>QUE ES UN ROUTER</pattern>
+<template>UN APARATO UTILIZADO EN SISTEMAS.</template>
+</category>
+<category><pattern>QUE ES UN COMPUTADOR</pattern>
+<template>UN APARATO UTILIZADO EN SISTEMAS DE MANERA RUTINARIA.</template>
+</category>
+<category><pattern>SABES QUE ES UN *</pattern>
+<template><srai>QUE ES UN <star/></srai></template>
+</category>
+</aiml>

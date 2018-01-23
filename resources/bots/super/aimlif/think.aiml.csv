@@ -1,0 +1,2 @@
+0,PUEDES DECIRME PORQUE EL PARTIDO * ES MEJOR QUE EL MIRA,*,*,Realmente piensas eso? <think><set name="partidoenemigo"> <star/></set></think>,think.aiml
+0,PUEDO ASEGURARTELO COMPLETAMENTE,*,*,Yo puedo asegurarte que todo lo que ves en el partido <get name="partidoenemigo"/> puedes encontrarlo en el partido MIRA... y mucho mas https://partidomira.com/,think.aiml

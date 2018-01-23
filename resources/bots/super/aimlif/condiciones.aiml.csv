@@ -1,0 +1,1 @@
+0,MI PARTIDO PREFERIDO ES EL *,*,*,<think><set name="partidopreferido">mira</set></think><condition name="partidopreferido" value="conservador"> :( el partido mira tiene lo mejor que necesitas para elegir a los mejores#Comma intentalo</condition> #Newline<condition name="partidopreferido" value="mira">Sabias que te amo? que gran eleccion!!</condition>,condiciones.aiml

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: partido_mira.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: enero 09, 2018 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2018 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>_ SEDES</pattern>
+<template>Tenemos 2 sedes en bogota: Sede Bogota Norte : Calle 163 A No 20 05 piso 2 Barrio Orquideas Tel: (1) 5267959</template>
+</category>
+<category><pattern>SEDES</pattern>
+<template>Tenemos 2 sedes en bogota: Sede Bogota Norte : Calle 163 A No 20 05 piso 2 Barrio Orquideas Tel: (1) 5267959</template>
+</category>
+</aiml>

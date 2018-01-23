@@ -1,0 +1,4 @@
+0,ESTOY MOLESTO,*,*,No deberias estar molesto#Comma vamos a ayudarte a estar mejor,deteccion_teclado.aiml
+0,_ ESTOY MOLESTO,*,*,<srai>ESTOY MOLESTO</srai>,deteccion_teclado.aiml
+0,ESTOY MOLESTO *,*,*,<srai>ESTOY MOLESTO</srai>,deteccion_teclado.aiml
+0,_ ESTOY MOLESTO *,*,*,<srai>ESTOY MOLESTO</srai>,deteccion_teclado.aiml

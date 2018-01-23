@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: deteccion_teclado.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: enero 09, 2018 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2018 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>ESTOY MOLESTO</pattern>
+<template>No deberias estar molesto, vamos a ayudarte a estar mejor</template>
+</category>
+<category><pattern>_ ESTOY MOLESTO</pattern>
+<template><srai>ESTOY MOLESTO</srai></template>
+</category>
+<category><pattern>ESTOY MOLESTO *</pattern>
+<template><srai>ESTOY MOLESTO</srai></template>
+</category>
+<category><pattern>_ ESTOY MOLESTO *</pattern>
+<template><srai>ESTOY MOLESTO</srai></template>
+</category>
+</aiml>

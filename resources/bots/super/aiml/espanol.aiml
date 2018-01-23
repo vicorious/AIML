@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: espanol.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: enero 09, 2018 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2018 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>HOLA</pattern>
+<template><random>
+				<li>Hola amigo, buenos dias</li>
+				<li>Hola amigo, en que puedo ayudarte</li>
+			</random></template>
+</category>
+<category><pattern>PORQUE MIS LLAMADAS ME SALEN A * PESOS</pattern>
+<template>A CUANTOS <star/> LE ESTAN SALIENDO SUS LLAMADAS?.</template>
+</category>
+<category><pattern>ME ENCANTA * NO</pattern>
+<template>UY, AMI TAMBIEN ME ENCANTA <star/>.</template>
+</category>
+<category><pattern>_ HOLA *</pattern>
+<template>ESTE ES EL HOLA CON UN TEXTO ANTES Y UN TEXTO DESPUES <star/>.</template>
+</category>
+</aiml>

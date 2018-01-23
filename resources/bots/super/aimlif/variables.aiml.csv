@@ -1,0 +1,3 @@
+0,MI NOMBRE ES *,*,*,Que nombre tan bonito <set name="nombre"><star/></set>,variables.aiml
+0,COMO ES MI NOMBRE,*,*,Tu nombre es <get name="nombre"/>,variables.aiml
+0,BUENAS NOCHES,*,*,Buena noche <get name="nombre"/>#Comma Gracias por la conversacion,variables.aiml
