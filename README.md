@@ -11,7 +11,7 @@ Es una implementacion del lenguaje XML para la creacion de BOTS basados en el fa
 * en primera instancia, solo podremos hablar con nuestro bot
 * en segunda instancia, el va almacenar las preguntas mas frecuentes
 * **en tercera instancia, va aprender de las mismas**
-* **al final, la idea es que sea un sistema complejo de Inteligencia artificial con integraciones de algoritmos de Backpropagacion, para el auto aprendizaje o el mas conocido como _machine learning complejo_ **
+* **al final, la idea es que sea un sistema complejo de Inteligencia artificial con integraciones de algoritmos de Backpropagacion, para el auto aprendizaje o el mas conocido como _machine learning complejo_**
 
 *NOTA: las que estan en **negrita** estan en desarrollo en este momento*
 
